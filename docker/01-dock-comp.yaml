@@ -1,0 +1,7 @@
+www:
+  image: nginx
+  restart: always
+  ports:
+    - "80:80"
+  volumes:
+    - /Users/josemanuelfranciscoaliaga/Documents/GitHub/peladotrack_freelance/01:/usr/share/nginx/html:ro
